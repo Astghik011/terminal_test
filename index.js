@@ -1,10 +1,10 @@
 // Trying to make terminal/git/github tasks more fun, and not to forget js in the meantime.
 
-function sayHi(name){
-    return `Happy ${getDate()}, ${name}!`;
+function sayHi(name, fooDate){
+    return `Happy ${fooDate()}, ${name}!`;
 }
 
-document.write(sayHi("HappyPerson"));
+document.write(sayHi("HappyPerson", getDate));
 
 function getDate(){
     const date = new Date();
