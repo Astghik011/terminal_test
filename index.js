@@ -46,7 +46,6 @@ function getDate(){
             break;
         case 11: 
             month = "December";
-            break;
     }
 
     let day = date.getDate();
